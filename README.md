@@ -1,27 +1,78 @@
-# subway
+# ningbo-subway
 
-> A Vue.js project
+宁波地铁
 
-## Build Setup
+## 地铁建设流程
 
-``` bash
-# install dependencies
-npm install
+1.  规划
+2.  审批
+3.  开建
+4.  盾构贯通
+5.  铺轨施工
+6.  空载试运行
+7.  试运营
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 1 号线
 
-# build for production with minification
-npm run build
+### 一期
 
-# build for production and view the bundle analyzer report
-npm run build --report
+* 规划： 2000
+* 开建： 2006.06.26
+* 空载试运行： 2013.11.24
+* 运营： 2014.05.30
 
-# run unit tests
-npm run unit
+### 二期
 
-# run all tests
-npm test
-```
+* 运营：2016.03.19
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 2 号线
+
+### 一期
+
+* 运营：2015.09.26
+
+### 二期
+
+* 运营：2019
+
+## 3 号线
+
+* 运营：2019
+
+## 4 号线
+
+* 运营：2020
+
+## 5 号线
+
+### 一期
+
+* 运营：2022
+
+### 二期
+
+* 运营：2025
+
+### 6 号线
+
+* 运营：2025
+
+### 7 号线
+
+* 运营：2025
+
+### 8 号线
+
+* 运营：2025
+
+### K1 快线
+
+* 运营：2030
+
+### K2 快线
+
+* 运营：2030
+
+## S3 线
+
+* 运营：2019
