@@ -1,7 +1,7 @@
 {
-  "name": "sub",
-  "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "name": "ningbo-subway",
+  "version": "0.0.1",
+  "description": "Ningbo subway",
   "author": "xank <xank@qq.com>",
   "private": true,
   "scripts": {
