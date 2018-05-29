@@ -5,8 +5,13 @@
 </template>
 
 <script>
+
+import SubwayBg from './SubwayBg'
+
 export default {
-  components: {},
+  components: {
+    SubwayBg
+  },
 
   props:{
   },

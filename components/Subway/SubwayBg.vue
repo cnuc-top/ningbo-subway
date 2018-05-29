@@ -1,7 +1,11 @@
 <style lang='stylus'>
 </style>
 <template>
-  <div></div>
+  <div>
+    <svg>
+
+    </svg>
+  </div>
 </template>
 
 <script>
