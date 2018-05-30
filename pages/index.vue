@@ -1,7 +1,7 @@
 <template>
   <section class="container">
-    <div>
-
+    <div @mouseenter="handleHover">
+      <subway ></subway>
     </div>
   </section>
 </template>
@@ -12,6 +12,11 @@ import Subway from '~/components/Subway/Subway'
 export default {
   components: {
     Subway
+  },
+  methods: {
+    handleHover(e) {
+      console.log(e)
+    }
   }
 }
 </script>
