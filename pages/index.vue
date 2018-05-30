@@ -7,6 +7,7 @@
 </template>
 
 <script>
+
 import Subway from '~/components/Subway/Subway'
 
 export default {
@@ -20,7 +21,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>

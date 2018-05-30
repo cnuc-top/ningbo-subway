@@ -18,7 +18,6 @@
 <script>
 export default {
   components: {},
-
   props: {
     data: Array
   },
