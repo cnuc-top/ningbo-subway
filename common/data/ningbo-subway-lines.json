@@ -177,7 +177,7 @@
   {
     "id": "line-6",
     "year": 2025,
-    "status": 3,
+    "status": 1,
     "stations": [
       "黄古路",
       "古林",
@@ -213,7 +213,7 @@
   {
     "id": "line-7",
     "year": 2025,
-    "status": 3,
+    "status": 1,
     "stations": [
       "九龙湖北",
       "九龙湖",
@@ -243,7 +243,7 @@
   {
     "id": "line-8",
     "year": 2025,
-    "status": 3,
+    "status": 1,
     "stations": [
       "江北大道",
       "奥体中心",
@@ -271,7 +271,7 @@
   {
     "id": "line-k1",
     "year": 2030,
-    "status": 3,
+    "status": 1,
     "stations": [
       "澥浦",
       "镇兴东路",
@@ -292,7 +292,7 @@
   {
     "id": "line-k2",
     "year": 2030,
-    "status": 3,
+    "status": 1,
     "stations": [
       "慈城",
       "金山路",

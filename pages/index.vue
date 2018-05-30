@@ -1,9 +1,14 @@
 <template>
   <section class="container">
     <div>
-      <legend>
-        <select-lines @update="handleUpdate" :data="lines"></select-lines>
-      </legend>
+      <sw-legend>
+        <select-lines @update="handleUpdate" :data="lines" :lines="linesData"></select-lines>
+        <!-- <el-checkbox-group v-model="showStatus" size="small">
+          <el-checkbox label="已建成" border></el-checkbox>
+          <el-checkbox label="在建中" border></el-checkbox>
+          <el-checkbox label="规划" border></el-checkbox>
+        </el-checkbox-group> -->
+      </sw-legend>
       <subway :lines="lines" :stations="stations" :texts="texts"></subway>
     </div>
   </section>
@@ -13,7 +18,7 @@
 import data from '~/common/data/ningbo-subway.json'
 import lines from '~/common/data/ningbo-subway-lines.json'
 import Subway from '~/components/Subway/Subway'
-import Legend from '~/components/Legend/Legend'
+import SwLegend from '~/components/SwLegend/SwLegend'
 import SelectLines from '~/components/Select/SelectLines'
 
 function arrInit(arr) {
@@ -25,14 +30,16 @@ function arrInit(arr) {
 
 export default {
   components: {
-    Subway, Legend, SelectLines
+    Subway, SwLegend, SelectLines
   },
 
   data() {
     return {
+      linesData: lines,
       lines: [],
       stations: [],
-      texts: []
+      texts: [],
+      showStatus: []
     }
   },
 

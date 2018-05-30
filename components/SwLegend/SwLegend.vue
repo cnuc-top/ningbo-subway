@@ -1,8 +1,13 @@
 <style lang='stylus'>
+@require '../../styles/cnuc/var/color.styl';
 
+.legend {
+  border-bottom: 1px solid $color-primary;
+  padding: 16px;
+}
 </style>
 <template>
-  <div>
+  <div class="legend">
     <slot></slot>
   </div>
 </template>
@@ -11,7 +16,7 @@
 export default {
   components: {},
 
-  props:{
+  props: {
     data: Array
   },
 
@@ -22,7 +27,7 @@ export default {
 
   computed: {},
 
-  mounted() {},
+  mounted() { },
 
   methods: {}
 }
