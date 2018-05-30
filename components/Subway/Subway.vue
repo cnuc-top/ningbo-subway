@@ -6,7 +6,7 @@
     position: absolute;
   }
 
-  .subway-station {
+  .subway-stations {
     z-index: 20;
   }
 
@@ -33,7 +33,6 @@
 </template>
 
 <script>
-import data from '~/common/data/ningbo-subway.json'
 import SubwayBg from './SubwayBg'
 import SubwayLine from './SubwayLine'
 import SubwayStation from './SubwayStation'
@@ -44,22 +43,14 @@ export default {
   },
 
   props: {
-  },
-
-  data() {
-    return {
-      width: data.width,
-      height: data.height,
-      lines: data.lines,
-      stations: data.stations,
-      texts: data.texts
-    }
+    lines: Array,
+    stations: Array,
+    texts: Array,
   },
 
   computed: {},
 
   mounted() {
-    console.log(data)
   },
 
   methods: {}
