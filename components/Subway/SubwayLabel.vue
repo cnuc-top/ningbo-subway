@@ -1,12 +1,18 @@
 <style lang='stylus'>
-  .subway-line{
-    font-size:11px;
+.subway-label {
+  font-size: 11px;
+  opacity: 0;
+  transition: 0.3;
+
+  &.is-show {
+    opacity: 1;
   }
+}
 </style>
 <template>
-  <svg class="subway-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1200">
-    <g id="subway-text">
-      <text :id="item.name" :x="item.x" :y="item.y" :points="item.points" v-for="(item, index) in data" :key="index">{{item.title}}</text>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1200">
+    <g>
+      <text class="subway-label" :class="{'is-show': item.show}" :id="item.name" :x="item.x" :y="item.y" :points="item.points" v-for="(item, index) in data" :key="index">{{item.title}}</text>
     </g>
   </svg>
 </template>
@@ -15,7 +21,7 @@
 export default {
   components: {},
 
-  props:{
+  props: {
     data: Array
   },
 
@@ -26,7 +32,7 @@ export default {
 
   computed: {},
 
-  mounted() {},
+  mounted() { },
 
   methods: {}
 }

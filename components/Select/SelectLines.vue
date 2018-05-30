@@ -49,8 +49,8 @@ export default {
 
   methods: {
     handleClick(item) {
-      console.log(item)
       item.show = !item.show
+      this.$emit('update')
     }
   }
 }
