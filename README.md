@@ -2,11 +2,11 @@
 
 ![](static/ningbo-subway-logo.png)
 
-在线浏览：
+**在线浏览：**
 
 http://subway.cnnbuc.com
 
-宁波城建论坛：
+**宁波城建论坛：**
 
 http://bbs.cnnbuc.com
 
@@ -14,7 +14,7 @@ http://bbs.cnnbuc.com
 
 | 线路       | 状态 | 开通年份 |
 | ---------- | ---- | -------- |
-| 1 号线一期 | 运营 | 2004     |
+| 1 号线一期 | 运营 | 2014     |
 | 1 号线二期 | 运营 | 2016     |
 | 2 号线一期 | 运营 | 2015     |
 | 2 号线二期 | 运营 | 2019     |
@@ -31,7 +31,7 @@ http://bbs.cnnbuc.com
 
 ![](static/map.jpg)
 
-## 地铁建设流程
+### 地铁建设流程
 
 1.  规划
 2.  审批
@@ -43,16 +43,8 @@ http://bbs.cnnbuc.com
 
 ## 相关工具
 
-### 地铁 SVG 转换器
+**地铁 SVG 转换器**
 
 https://github.com/cnuc-top/subway-svg-tools
 
-
-```shell
-docker stop ningbo-subway \
-; docker rm ningbo-subway \
-; cd /app/ningbo-subway \
-&& sudo git pull \
-&& docker build -t ningbo-subway . \
-&& docker run -e TZ="Asia/Shanghai" -d -p 16111:3000 --name ningbo-subway ningbo-subway
-```
+本工具用于将 SVG 地铁图转换为 JSON 数据用于本项目
